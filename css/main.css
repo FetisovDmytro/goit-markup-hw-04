@@ -179,6 +179,23 @@ height:auto;
     color: var(--Blue-color);
  }   
 
+
+
+.email::before {
+    display: inline-block;
+    content:"";
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/envelope.svg);
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+
 /* Герой */
 
 .hero1 {
@@ -307,10 +324,6 @@ height:auto;
 
 
 
-
-
-
-
 /*  Види робот */
 
 .section-title {
@@ -323,8 +336,6 @@ height:auto;
     text-align: center;
     letter-spacing: 0.03em;
 }
-
-
 
 
 /* Наша команда  */
