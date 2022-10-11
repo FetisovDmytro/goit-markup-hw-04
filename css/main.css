@@ -418,7 +418,7 @@ height:auto;
         fill: #AFB1B8;
     }
 
-    .icon-social:hover {
+    .social-size:hover .icon-social {
         
         fill: var(--white-bgc);
     }
@@ -446,11 +446,12 @@ height:auto;
     }
 
    .icon {
-   
+    align-items: center;
+    justify-content: center;
     fill: #AFB1B8;
    }
 
-   .icon:hover {
+   .clietsize:hover .icon {
     fill: #2196F3;
    }
 
@@ -517,6 +518,7 @@ height:auto;
 .foot-title {
     margin-top: 0;
     margin-bottom: 20px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -547,6 +549,7 @@ height:auto;
 }
 
 .icon-footer {
+    
     fill: var(--white-bgc);
 }
 
