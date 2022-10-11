@@ -455,19 +455,23 @@ height:auto;
    }
 
 /* Флекс для футера */
-     
+
 
 .footer {
        
     display: flex;
     margin-right: auto;
     margin-left: auto;
-   
+    
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--bgc-hero-title);
 }
 
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
 
     .foot-cont {
         margin-right: 70px;
@@ -510,9 +514,45 @@ height:auto;
     letter-spacing: 0.03em;
 } 
 
+.foot-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--white-bgc);
+}
 
 
 
+
+.social-footer {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    padding: 12px 12px;
+    background-position: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #000000;
+    border-radius: 50%;
+    
+}
+
+.social-footer:hover {
+    background-color: var(--Blue-color);
+}
+
+.icon-footer {
+    fill: var(--white-bgc);
+}
+
+.social-footer:last-child {
+    margin-right: 0;
+}
 /* Флекс для кнопок портфолио */
 
 .flex-btn {
