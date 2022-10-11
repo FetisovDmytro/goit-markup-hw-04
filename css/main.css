@@ -382,6 +382,34 @@ height:auto;
     }
 
 
+    /* Іконки соц мереж */
+
+    .social-size {
+        
+        margin-right: 10px;
+        padding: 12px 12px;
+        
+        display: block;
+        width: 44px;
+        height: 44px;
+    }
+
+    .social-size:nth-child(1) {
+        margin-left: 32px;
+    }
+
+    .social-size:last-child{
+        margin-right: 32px;
+    }
+
+    .icon-social {
+        
+       
+        fill: #AFB1B8;
+        
+    }
+
+
     /* Секція кліенти */
 
     .clients {
