@@ -268,17 +268,19 @@ height:auto;
 
 /* Переваги */
 
+.feature {
+    margin-bottom: 30px;
+}
+
 .feature::before {
     display: block;
     content: "";
     height: 120px;
-    margin-bottom: 30px;
+    
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--bgc-comands);
     border-radius: 4px;
-
-
 }
 
 .icon-antena::before {
@@ -442,12 +444,8 @@ height:auto;
     /* Секція кліенти */
 
     .clietsize {
-        display: flex;
-        gap: 30px;
         width: 170px;
         height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
     }
 
     .box-link {
@@ -456,6 +454,8 @@ height:auto;
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
         color: #AFB1B8;
     }
 
@@ -463,12 +463,12 @@ height:auto;
         fill: currentColor;
        }
 
-    .clietsize:hover {
+    .box-link:hover {
         border: 1px solid #2196F3;
         border-radius: 4px;
     }
 
-   .clietsize:hover .icon {
+   .box-link:hover .icon {
     fill: #2196F3;
    }
 
@@ -611,12 +611,10 @@ height:auto;
     padding: 6px 22px;
     border: 1px solid transparent;
     border-radius: 4px;
-
     background-color: var(--bgc-comands);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -626,7 +624,6 @@ height:auto;
     background-color: var(--Blue-color);
     color: var(--white-bgc);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 }
 
 
